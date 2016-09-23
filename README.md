@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/66103790.svg)](https://zenodo.org/badge/latestdoi/66103790)
+
 Author: Barak Raveh
 Last updated: Sep 23, 2016
 
