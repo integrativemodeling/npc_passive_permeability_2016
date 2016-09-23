@@ -25,6 +25,8 @@
 # file can be viewed in text format using the python script in
 # $IMP_FOLDER/npctransport/utility/npc_show_output.py
 #
+# Sample output files are in the Output/ subfolder.
+#
 #
 # Config.pb:
 # ==========
@@ -40,5 +42,5 @@
 IMP_FOLDER=$HOME/imp_git/fast/
 IMP=$IMP_FOLDER/setup_environment.sh
 seed=`od -An -N4 -td4 /dev/random`
-$IMP $IMP_FOLDER/module_bin/npctransport/fg_simulation --configuration config.pb --cylinder_nlayers 4 --output output.pb --short_init_factor 0.5 --short_sim_factor 1.00 --conformations movie.rmf --random_seed $seed
+$IMP $IMP_FOLDER/module_bin/npctransport/fg_simulation --configuration config.pb --cylinder_nlayers 4 --output Output/output.pb --short_init_factor 0.5 --short_sim_factor 1.00 --conformations Output/movie.rmf --final_conformations Output/final_conformations.rmf --random_seed $seed
 echo "FINISHED RUN"
