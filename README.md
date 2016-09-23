@@ -1,3 +1,6 @@
+Author: Barak Raveh
+Last updated: Sep 23, 2016
+
 Synopsis:
 =========
 Repository for simulations of passive diffusion through the nuclear pore complex, associated with the manuscript:
@@ -10,3 +13,5 @@ Journal of Cell Biology (2016) DOI: 10.1083/jcb.201601004
 Contents:
 ==========
 Figure5B_simulations/ - files needed to reproduce Figure 5B, see README.sh file in that folder for more details.
+
+Configuration files for additional simulations and analysis scripts will be provided upon request (please contact either the corresponding authors or Barak Raveh barak at salilab.org).
